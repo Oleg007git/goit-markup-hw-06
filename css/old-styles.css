@@ -87,17 +87,6 @@ a {
   display: flex;
   align-items: center;
 }
-.menu-contacts {
-  display: flex;
-  column-gap: 40px;
-  justify-content: flex-end;
-  justify-content: space-between;
-  gap: 40px;
-}
-.menu-contacts-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
 .menu {
   display: flex;
   gap: 40px;
