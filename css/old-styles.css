@@ -235,7 +235,7 @@ a {
 .desc-item {
   display: flex;
   gap: 24px;
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 24px) / 2);
 }
 .desc-cart {
   min-width: 264px;

@@ -66,15 +66,15 @@
     </header>
 
     <!-- SECTION 1 TITLE -->
-    <!-- <main>
+    <main>
       <section class="section-title">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
           <button type="button" class="main-button">Order Service</button>
         </div>
-      </section> -->
-    <!-- SECTION 2  -->
-    <!-- <section class="section-desc section">
+      </section>
+      <!-- SECTION 2  -->
+      <section class="section-desc section">
         <div class="container">
           <h2 class="visually-hidden">Effective Solutions for Your Business</h2>
           <ul class="desc-item">
@@ -128,14 +128,21 @@
             </li>
           </ul>
         </div>
-      </section> -->
-    <!-- SECTION 3 (OUR TEAM) -->
-    <!-- <section class="our-team section">
+      </section>
+      <!-- SECTION 3 (OUR TEAM) -->
+      <section class="our-team section">
         <div class="container">
           <h2 class="team-main-title">Our Team</h2>
           <ul class="team-list">
+            <!-- team-card1 -->
             <li class="team-link">
-              <img src="./images/img.jpg" alt="Mark" width="264" height="260" />
+              <img
+                srcset="./images/teem-cart-1@2x.jpg 2x"
+                src="./images/teem-cart-1.jpg 1x"
+                alt="Mark"
+                width="264"
+                height="260"
+              />
               <div class="team-card">
                 <h3 class="team-title">Mark Guerrero</h3>
                 <p class="team-text">Product Designer</p>
@@ -189,12 +196,13 @@
                     </a>
                   </li>
                 </ul>
-           
               </div>
             </li>
+            <!-- Team-card2 -->
             <li class="team-link">
               <img
-                src="./images/img_6.jpg"
+                srcset="./images/teem-cart-2@2x.jpg 2x"
+                src="./images/teem-cart-2.jpg 1x"
                 alt="Tom"
                 width="264"
                 height="260"
@@ -202,7 +210,7 @@
               <div class="team-card">
                 <h3 class="team-title">Tom Ford</h3>
                 <p class="team-text">Frontend Developer</p>
-             
+
                 <ul class="contact-blok">
                   <li class="contact-link">
                     <a class="social-link" href="https://www.instagram.com/">
@@ -253,12 +261,13 @@
                     </a>
                   </li>
                 </ul>
-             
               </div>
             </li>
+            <!-- Team-card3 -->
             <li class="team-link">
               <img
-                src="./images/img_7.jpg"
+                srcset="./images/teem-cart-3@2x.jpg 2x"
+                src="./images/teem-cart-3.jpg 1x"
                 alt="Camilla"
                 width="264"
                 height="260"
@@ -266,7 +275,7 @@
               <div class="team-card">
                 <h3 class="team-title">Camilla Garcia</h3>
                 <p class="team-text">Marketing</p>
-    
+
                 <ul class="contact-blok">
                   <li class="contact-link">
                     <a class="social-link" href="https://www.instagram.com/">
@@ -317,12 +326,13 @@
                     </a>
                   </li>
                 </ul>
-            
               </div>
             </li>
+            <!-- Team-card4 -->
             <li class="team-link">
               <img
-                src="./images/img_8.jpg"
+                srcset="./images/teem-cart-4@2x.jpg 2x"
+                src="./images/teem-cart-4.jpg 1x"
                 alt="Daniel"
                 width="264"
                 height="260"
@@ -330,7 +340,7 @@
               <div class="team-card">
                 <h3 class="team-title">Daniel Wilson</h3>
                 <p class="team-text">UI Designer</p>
-             
+
                 <ul class="contact-blok">
                   <li class="contact-link">
                     <a class="social-link" href="https://www.instagram.com/">
@@ -381,26 +391,49 @@
                     </a>
                   </li>
                 </ul>
-             
               </div>
             </li>
           </ul>
         </div>
-      </section> -->
-    <!-- SECTION 4 (OUR PORTFOLIO)-->
-    <!-- <section class="portfolio section">
+      </section>
+      <!-- SECTION 4 (OUR PORTFOLIO)-->
+      <section class="portfolio section">
         <div class="container">
           <h2 class="portfolio-main-title">Our Portfolio</h2>
           <ul class="portfolio-list">
+            <!-- List1 -->
             <li class="portfolio-main-list">
               <div class="overlay-stop">
-                <img
-                  class="portfolio-list-item"
-                  src="./images/img_5.jpg"
-                  alt="Banking App"
-                  width="360"
-                  height="300"
-                />
+              <picture>
+                  <source
+                    srcset="
+                      ./images/moeditation-desctop.jpg   1x,
+                      ./images/meditation-desctop@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/maditadion-tablet.jpg, 1x
+                      ./images/maditadion-tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/meditation-mobile.jpg    1x,
+                      ./images/meditation-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+
+                  <img
+                    src="./images/meditation-mobile.jpg"
+                    alt="Screen Illustrations"
+                  />
+                </picture>
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecomerce App
@@ -412,16 +445,39 @@
                 <p class="portfolio-text">App</p>
               </div>
             </li>
-           
+            <!-- List2 -->
             <li class="portfolio-main-list">
               <div class="overlay-stop">
-                <img
-                  class="portfolio-list-item"
-                  src="./images/img_4.jpg"
-                  alt="Cashless Payment"
-                  width="360"
-                  height="300"
-                />
+                 <picture>
+                  <source
+                    srcset="
+                      ./images/moeditation-desctop.jpg   1x,
+                      ./images/meditation-desctop@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/maditadion-tablet.jpg, 1x
+                      ./images/maditadion-tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/meditation-mobile.jpg    1x,
+                      ./images/meditation-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+
+                  <img
+                    src="./images/meditation-mobile.jpg"
+                    alt="Screen Illustrations"
+                  />
+                </picture>
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ectomere App
@@ -433,16 +489,39 @@
                 <p class="portfolio-text">Marketing</p>
               </div>
             </li>
-           
+            <!-- List3 -->
             <li class="portfolio-main-list">
               <div class="overlay-stop">
-                <img
-                  class="portfolio-list-item"
-                  src="./images/img_3.jpg"
-                  alt="Meditation App"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/moeditation-desctop.jpg   1x,
+                      ./images/meditation-desctop@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/maditadion-tablet.jpg, 1x
+                      ./images/maditadion-tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/meditation-mobile.jpg    1x,
+                      ./images/meditation-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+
+                  <img
+                    src="./images/meditation-mobile.jpg"
+                    alt="Screen Illustrations"
+                  />
+                </picture>
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ectomere App
@@ -454,16 +533,39 @@
                 <p class="portfolio-text">App</p>
               </div>
             </li>
-           
+            <!-- List4 -->
             <li class="portfolio-main-list">
               <div class="overlay-stop">
-                <img
-                  class="portfolio-list-item"
-                  src="./images/img_2.jpg"
-                  alt="Taxi Service"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/moeditation-desctop.jpg   1x,
+                      ./images/meditation-desctop@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/maditadion-tablet.jpg, 1x
+                      ./images/maditadion-tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/meditation-mobile.jpg    1x,
+                      ./images/meditation-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+
+                  <img
+                    src="./images/meditation-mobile.jpg"
+                    alt="Screen Illustrations"
+                  />
+                </picture>
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ectomere App
@@ -475,16 +577,39 @@
                 <p class="portfolio-text">Marketing</p>
               </div>
             </li>
-           
+            <!-- List5 -->
             <li class="portfolio-main-list">
               <div class="overlay-stop">
-                <img
-                  class="portfolio-list-item"
-                  src="./images/img_1.jpg"
-                  alt="Screen Illustrations"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/moeditation-desctop.jpg   1x,
+                      ./images/meditation-desctop@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/maditadion-tablet.jpg, 1x
+                      ./images/maditadion-tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/meditation-mobile.jpg    1x,
+                      ./images/meditation-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+
+                  <img
+                    src="./images/meditation-mobile.jpg"
+                    alt="Screen Illustrations"
+                  />
+                </picture>
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ectomere App
@@ -496,16 +621,39 @@
                 <p class="portfolio-text">Design</p>
               </div>
             </li>
-           
+            <!-- List6 -->
             <li class="portfolio-main-list">
               <div class="overlay-stop">
-                <img
-                  class="portfolio-list-item"
-                  src="./images/img_.jpg"
-                  alt="Online Courses"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/moeditation-desctop.jpg   1x,
+                      ./images/meditation-desctop@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/maditadion-tablet.jpg, 1x
+                      ./images/maditadion-tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/meditation-mobile.jpg    1x,
+                      ./images/meditation-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+
+                  <img
+                    src="./images/meditation-mobile.jpg"
+                    alt="Screen Illustrations"
+                  />
+                </picture>
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ectomere App
@@ -520,10 +668,10 @@
           </ul>
         </div>
       </section>
-    </main> -->
+    </main>
 
     <!-- Footer -->
-    <!-- <footer class="main-footer">
+    <footer class="main-footer">
       <div class="container-footer">
         <div class="container-one">
           <a class="logo-footer" href="./index.html"
@@ -537,7 +685,6 @@
         <div class="container-two">
           <p class="footer-text-bottom">Social media</p>
           <ul class="footer-contact">
-           
             <li class="footer-contact-list">
               <a class="footer-contact-link" href="https://www.instagram.com/">
                 <svg
@@ -550,7 +697,7 @@
                 </svg>
               </a>
             </li>
-           
+
             <li class="footer-contact-list">
               <a class="footer-contact-link" href="https://twitter.com/">
                 <svg
@@ -563,7 +710,7 @@
                 </svg>
               </a>
             </li>
-            
+
             <li class="footer-contact-list">
               <a class="footer-contact-link" href="https://www.facebook.com/">
                 <svg
@@ -576,7 +723,7 @@
                 </svg>
               </a>
             </li>
-           
+
             <li class="footer-contact-list">
               <a class="footer-contact-link" href="https://www.linkedin.com/">
                 <svg
@@ -589,10 +736,9 @@
                 </svg>
               </a>
             </li>
-            
           </ul>
         </div>
-        
+
         <div class="container-free">
           <p class="mail-text">Subscribe</p>
           <form class="form-footer">
@@ -605,7 +751,7 @@
                 placeholder="E-mail"
                 required
               />
-            </label>
+            </label class="label-footer">
             <button class="footer-btn" type="submit">
               Subscribe
               <svg
@@ -620,16 +766,8 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
     <!-- ///////////////////Main window\\\\\\\\\\\\\\\\\\
-    
-    
-    
-    
-    
-    
-    
-    
     
     
     -->
@@ -757,7 +895,7 @@
       </div>
     </div> -->
     <!-- Mobile menu -->
-    <div class="mobile-menu-wrapper">
+    <!-- <div class="mobile-menu-wrapper">
       <div class="container mobile-menu-container">
         <button class="mobile-menu-close-btn">
           <svg
@@ -772,9 +910,7 @@
         <div>
           <ul class="mobile-menu">
             <li class="mobile-menu-item">
-              <a class="mobile-menu-item-link link" href="./index.html"
-                >Studio</a
-              >
+              <a class="mobile-current link" href="./index.html">Studio</a>
             </li>
             <li class="mobile-menu-item">
               <a class="mobile-menu-item-link link" href="">Portfolio</a>
@@ -856,6 +992,6 @@
           </ul>
         </div>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
