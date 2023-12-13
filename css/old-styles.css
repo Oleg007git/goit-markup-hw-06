@@ -618,7 +618,7 @@ a {
   background-color: rgba(46, 47, 66, 0.4);
 }
 
-.backdrop.is-open {
+.backdrop .is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
