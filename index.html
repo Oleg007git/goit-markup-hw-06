@@ -793,11 +793,11 @@
     </footer>
     <!=
     
-    =================Main window================
+    =================Modal window================
       
     =>
-    <div class="backdrop">
-      <div class="modal">
+    <div class="backdrop is-open">
+      <div class="modal ">
         <button class="modal-close-btn" type="button">
           <svg
             class="modal-close-btn-icon"
@@ -924,7 +924,7 @@
    ===============Mobile Menu ================
    
    =>
-     <div class="mobile-menu-wrapper">
+     <div class="mobile-menu-wrapper is-open">
       <div class="container mobile-menu-container">
         <button class="mobile-menu-close-btn">
           <svg
@@ -952,6 +952,11 @@
         <div class="mobile-contact-wrapper">
          <address class="mobile-contacts">
           <ul class="mobile-menu-contacts">
+             <li>
+              <a class="mobile-menu-contacts-item" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
             <li>
               <a
                 class="mobile-menu-contacts-item"
@@ -959,11 +964,7 @@
                 >info@devstudio.com
               </a>
             </li>
-            <li>
-              <a class="mobile-menu-contacts-item" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
+           
           </ul>
          </address>
          <div class="mobile-container-social">
